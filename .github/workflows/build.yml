@@ -48,9 +48,9 @@ jobs:
         run: |
           python setup.py test
 
-      - name: build docs
-        run: |
-          python setup.py build_sphinx
+#      - name: build docs
+#        run: |
+#          python setup.py build_sphinx
 
       - name: run linting
         run: |
