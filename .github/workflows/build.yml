@@ -55,4 +55,4 @@ jobs:
 
       - name: run linting
         run: |
-          flake8 --count packagename
+          flake8 --count visitparser
