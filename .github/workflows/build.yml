@@ -54,5 +54,6 @@ jobs:
 #          python setup.py build_sphinx
 
       - name: run linting
+        continue-on-error: true
         run: |
           flake8 --count visitparser
