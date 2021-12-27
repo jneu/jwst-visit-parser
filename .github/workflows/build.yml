@@ -32,8 +32,10 @@ jobs:
 
       - name: install dependencies
         run: |
+          conda install astropy
           conda install pytest
           conda install sphinx
+          pip install pytest-astropy
           pip install sphinx_rtd_theme
           pip install stsci_rtd_theme
           pip install sphinx-automodapi
