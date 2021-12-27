@@ -35,6 +35,7 @@ jobs:
           conda install astropy
           conda install pytest
           conda install sphinx
+          pip install flake8
           pip install pytest-astropy
           pip install sphinx_rtd_theme
           pip install stsci_rtd_theme
